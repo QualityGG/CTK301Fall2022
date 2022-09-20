@@ -1,0 +1,106 @@
+body {
+
+  font-style: italic;
+}
+
+
+
+header {
+
+  color: orange;
+  font-style: italic;
+  font-weight: normal;
+}
+
+p {
+
+  color: purple;
+
+}
+
+
+
+
+a {
+ color: #ff0000;
+ text-decoration: none;
+}
+
+a:hover {
+
+  color:yellow;
+  text-decoration: underline;
+}
+
+a:visited {
+
+color: #3FBF3F;
+
+}
+
+.requirements_intro p {
+
+color: green;
+
+text-align: left;
+
+background-color: pink;
+
+}
+
+.requirements_intro h2 {
+
+color: orange;
+font-style: italic;
+font-weight: normal;
+
+text-align: center;
+
+background-color: pink;
+
+}
+
+.requirements_intro h3 {
+
+color: orange;
+font-style: italic;
+font-weight: normal;
+
+background-color: pink;
+
+}
+
+.classes-intro p {
+
+  text-align: justify;
+
+color: purple;
+
+background-color: pink
+}
+
+
+.classes-intro h2 {
+
+color: orange;
+font-style: italic;
+font-weight: normal;
+
+}
+
+
+.image_box {
+border: 2px solid white;
+padding: 10px 10px 10px 10px;
+margin: 20px 20px 20px 20px;
+background-color: black;
+}
+
+body {
+background-color: grey;
+background-image: url('thing.png.');
+}
+
+main {
+background-color: black;
+}
