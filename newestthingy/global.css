@@ -1,0 +1,16 @@
+:root {
+  /* fonts */
+  --font-segoe-ui: "Segoe UI";
+  --font-yu-gothic: "Yu Gothic";
+
+  /* font sizes */
+  --font-size-base: 70px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-gray: #707070;
+
+  /* border radiuses */
+  --br-sm: 20px;
+  --br-md: 30px;
+}
