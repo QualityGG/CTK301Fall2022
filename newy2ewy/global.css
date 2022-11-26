@@ -1,0 +1,16 @@
+:root {
+  /* fonts */
+  --font-haettenschweiler: Haettenschweiler;
+
+  /* font sizes */
+  --font-size-base: 45px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-black: #000;
+  --color-gray-100: #707070;
+
+  /* border radiuses */
+  --br-sm: 20px;
+  --br-md: 40px;
+}

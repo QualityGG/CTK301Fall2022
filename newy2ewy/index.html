@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <title></title>
+    <meta name="description" content="" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./index.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Haettenschweiler:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <fieldset class="custom-size-1-fieldset">
+      <main class="path-1-main"></main>
+      <div class="rectangle-div"></div>
+      <h1 class="about-me-general-information">
+        <p class="about-me-general">About Me: General Information</p>
+      </h1>
+      <img class="img-1052-icon" alt="" src="public/img-1052@2x.png" />
+      <footer class="rectangle-footer"></footer>
+      <img class="icon" alt="" src="public/87390@2x.png" id="image" /><strong
+        class="holdenmeece-strong"
+        >@holden.meece</strong
+      ><img class="img-1019-icon" alt="" src="public/img-1019@2x.png" /><img
+        class="c18b0f3-c501-401a-bb79-bfb2c9a-icon"
+        alt=""
+        src="public/7c18b0f3c501401abb79bfb2c9a5591b@2x.png"
+      /><img
+        class="f4f4b40-1fae-4e62-827e-0e11bda-icon"
+        alt=""
+        src="public/7f4f4b401fae4e62827e0e11bdaa5672@2x.png"
+      />
+      <div class="rectangle-div1"></div>
+      <p class="im-a-20-year-old-college-stud">
+        I'm a 20 year old college student from Bloomington Illinois, and my
+        passions lie in photography and video games. I hardly work until I have
+        to work hard
+      </p>
+      <img
+        class="pngtreearrow-shape-red-simple"
+        alt=""
+        src="public/pngtreearrow-shape-red-simple-direction-8186748@2x.png"
+        data-animate-on-scroll
+      />
+      <section class="rectangle-section"></section>
+      <p class="me-when-i-get-a-f-on-my-repor" data-animate-on-scroll>
+        Me when I get a F- on my report card
+      </p>
+      <video class="hungrybox-faints-on-stream" controls>
+        <source src="public/hungrybox_faints on stream.mp4" />
+      </video>
+    </fieldset>
+
+    <script>
+      var image = document.getElementById("image");
+      if (image) {
+        image.addEventListener("click", function () {
+          window.open("https://www.instagram.com/holden.meece/");
+        });
+      }
+      var scrollAnimElements = document.querySelectorAll("[data-animate-on-scroll]");
+      var observer = new IntersectionObserver(
+        (entries) => {
+          for (const entry of entries) {
+            if (entry.isIntersecting || entry.intersectionRatio > 0) {
+              const targetElement = entry.target;
+              targetElement.classList.add("animate");
+              observer.unobserve(targetElement);
+            }
+          }
+        },
+        {
+          threshold: 0.15,
+        }
+      );
+      
+      for (let i = 0; i < scrollAnimElements.length; i++) {
+        observer.observe(scrollAnimElements[i]);
+      }
+      </script>
+  </body>
+</html>
