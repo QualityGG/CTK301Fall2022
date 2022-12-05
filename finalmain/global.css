@@ -1,0 +1,17 @@
+:root {
+  /* fonts */
+  --font-segoe-ui: "Segoe UI";
+  --font-roboto-condensed: "Roboto Condensed";
+
+  /* font sizes */
+  --font-size-base: 40px;
+  --font-size-lg: 70px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-gray: #707070;
+
+  /* border radiuses */
+  --br-sm: 20px;
+  --br-md: 30px;
+}
