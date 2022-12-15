@@ -1,0 +1,210 @@
+@keyframes shadow-drop-bottom {
+  0% {
+    box-shadow: 0 0 0 0 transparent;
+  }
+  to {
+    box-shadow: 0 12px 20px -12px rgb(0 0 0/35%);
+  }
+}
+@keyframes rotate-center {
+  0% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+body {
+  margin: 0;
+  line-height: normal;
+}
+.rectangle-main {
+  top: 40px;
+  left: 22px;
+  border-radius: 30px;
+  background: linear-gradient(180deg, #ffa0a0, gray);
+  border: 1px solid var(--color-gray-200);
+  width: 1158px;
+  height: 1317px;
+}
+.line-div,
+.rectangle-header,
+.rectangle-main {
+  position: absolute;
+  box-sizing: border-box;
+}
+.line-div {
+  top: 315.5px;
+  left: 226.5px;
+  border-top: 10px solid var(--color-gray-200);
+  width: 891px;
+  height: 20px;
+}
+.rectangle-header {
+  top: 70px;
+  left: 254px;
+  border-radius: var(--br-sm);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-gray-200);
+  width: 841px;
+  height: 120px;
+}
+.holdens-website {
+  margin: 0;
+  position: absolute;
+  top: 100px;
+  left: 287px;
+  font-size: var(--font-size-base);
+  font-weight: 400;
+  font-family: var(--font-roboto-condensed);
+  display: inline-block;
+  width: 781px;
+}
+.img-3833-icon {
+  position: absolute;
+  top: 70px;
+  left: 57px;
+  width: 129px;
+  height: 120px;
+  object-fit: cover;
+}
+.rectangle-div {
+  position: absolute;
+  top: 190px;
+  left: 253px;
+  border-radius: var(--br-md);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-gray-200);
+  box-sizing: border-box;
+  width: 347px;
+  height: 115px;
+}
+.gallery {
+  margin: 0;
+  position: absolute;
+  top: 211px;
+  left: 287px;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  width: 278px;
+}
+.rectangle-div1 {
+  position: absolute;
+  top: 191px;
+  right: 105px;
+  border-radius: var(--br-md);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-gray-200);
+  box-sizing: border-box;
+  width: 347px;
+  height: 115px;
+}
+.about-me {
+  position: absolute;
+  top: 211px;
+  right: 139px;
+  display: inline-block;
+  width: 278px;
+}
+.rectangle-header1,
+.welcome {
+  position: absolute;
+  width: 387px;
+}
+.rectangle-header1 {
+  top: 417px;
+  left: 93px;
+  border-radius: var(--br-md);
+  background-color: var(--color-gray-300);
+  box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.16);
+  border: 1px solid var(--color-gray-200);
+  box-sizing: border-box;
+  height: 102px;
+}
+.welcome {
+  margin: 0;
+  top: 436px;
+  left: 94px;
+  color: var(--color-gray-100);
+  display: inline-block;
+}
+.rectangle-article {
+  position: absolute;
+  top: 519px;
+  right: 105px;
+  border-radius: var(--br-sm);
+  background-color: var(--color-gray-300);
+  box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.16);
+  border: 1px solid var(--color-gray-200);
+  box-sizing: border-box;
+  width: 495px;
+  height: 534px;
+}
+.this-page-was-made-not-only-as {
+  margin: 0;
+  position: absolute;
+  top: 572px;
+  right: 128px;
+  font-size: var(--font-size-base);
+  line-height: 94px;
+  text-transform: capitalize;
+  color: var(--color-gray-100);
+  text-align: left;
+  display: inline-block;
+  width: 447px;
+}
+.rectangle-button {
+  cursor: pointer;
+  border: 1px solid var(--color-gray-200);
+  padding: 0;
+  background-color: var(--color-gray-300);
+  position: absolute;
+  right: 140px;
+  bottom: 91px;
+  border-radius: var(--br-md);
+  box-sizing: border-box;
+  width: 874px;
+  height: 135px;
+}
+.click-to-go-to-top-of-page:hover,
+.rectangle-button:hover {
+  animation: 1s ease 0s 1 normal none shadow-drop-bottom;
+  opacity: 1;
+}
+.click-to-go-to-top-of-page {
+  margin: 0;
+  position: absolute;
+  bottom: 126px;
+  left: 253px;
+  text-transform: capitalize;
+  color: var(--color-gray-100);
+  text-align: left;
+  display: inline-block;
+  width: 737px;
+}
+.img-4567-icon {
+  position: absolute;
+  top: 618px;
+  left: 140px;
+  border-radius: var(--br-sm);
+  width: 287px;
+  height: 383px;
+  object-fit: cover;
+}
+.img-4567-icon:hover {
+  animation: 1s ease 0s 1 normal none rotate-center;
+  opacity: 1;
+}
+.custom-size-1 {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 1391px;
+  text-align: center;
+  font-size: var(--font-size-lg);
+  color: var(--color-gray-200);
+  font-family: var(--font-mongolian-baiti);
+}
