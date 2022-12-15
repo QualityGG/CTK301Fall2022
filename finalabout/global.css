@@ -1,0 +1,17 @@
+:root {
+  /* fonts */
+  --font-mongolian-baiti: "Mongolian Baiti";
+
+  /* font sizes */
+  --font-size-base: 55px;
+  --font-size-lg: 60px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-black: #000;
+  --color-gray-100: #707070;
+  --color-gray-200: #4f4a4a;
+
+  /* border radiuses */
+  --br-md: 20px;
+}

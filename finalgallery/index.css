@@ -1,0 +1,125 @@
+@keyframes shadow-drop-bottom {
+  0% {
+    box-shadow: 0 0 0 0 transparent;
+  }
+  to {
+    box-shadow: 0 12px 20px -12px rgb(0 0 0/35%);
+  }
+}
+body {
+  margin: 0;
+  line-height: normal;
+}
+.rectangle-button,
+.rectangle-button1,
+.rectangle-div {
+  border: 1px solid var(--color-gray-100);
+  position: absolute;
+  box-sizing: border-box;
+}
+.rectangle-div {
+  top: 31px;
+  left: 23px;
+  background-color: #dda6a6;
+  width: 1155px;
+  height: 1330px;
+}
+.rectangle-button,
+.rectangle-button1 {
+  cursor: pointer;
+  padding: 0;
+  background-color: var(--color-white);
+  top: 82px;
+  left: 89px;
+  border-radius: var(--br-sm);
+  width: 400px;
+  height: 133px;
+}
+.img-1019-icon:hover,
+.rectangle-button1:hover,
+.rectangle-button:hover {
+  animation: 1s ease 0s 1 normal none shadow-drop-bottom;
+  opacity: 1;
+}
+.rectangle-button1 {
+  left: 694px;
+}
+.about,
+.home {
+  margin: 0;
+  position: absolute;
+  top: 108px;
+  left: 195px;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  width: 188px;
+  -webkit-text-stroke: 1px #000;
+  cursor: pointer;
+}
+.about {
+  left: 800px;
+}
+.img-1019-icon {
+  position: absolute;
+  top: 301px;
+  left: 89px;
+  border-radius: var(--br-md);
+  width: 294px;
+  height: 425px;
+  object-fit: cover;
+}
+.c18b0f3-c501-401a-bb79-bfb2c9a-icon,
+.f4f4b40-1fae-4e62-827e-0e11bda-icon,
+.img-0598-2-icon,
+.img-3497-jpg-icon,
+.img-3635-icon {
+  position: absolute;
+  top: 301px;
+  left: 453px;
+  border-radius: var(--br-md);
+  width: 294px;
+  height: 425px;
+  object-fit: cover;
+}
+.c18b0f3-c501-401a-bb79-bfb2c9a-icon:hover {
+  animation: 1s ease 0s infinite normal none shadow-drop-bottom;
+  opacity: 1;
+}
+.f4f4b40-1fae-4e62-827e-0e11bda-icon,
+.img-0598-2-icon,
+.img-3497-jpg-icon,
+.img-3635-icon {
+  left: 817px;
+}
+.f4f4b40-1fae-4e62-827e-0e11bda-icon:hover,
+.img-0598-2-icon:hover,
+.img-3497-jpg-icon:hover,
+.img-3635-icon:hover {
+  animation: 1s ease 0s 1 normal none shadow-drop-bottom;
+  opacity: 1;
+}
+.img-0598-2-icon,
+.img-3497-jpg-icon,
+.img-3635-icon {
+  top: 820px;
+  left: 89px;
+}
+.img-3497-jpg-icon,
+.img-3635-icon {
+  left: 453px;
+}
+.img-3635-icon {
+  left: 817px;
+}
+.exercise-9-holden-meece {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 1391px;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-gray-200);
+  font-family: var(--font-segoe-ui);
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Mongolian Baiti:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <fieldset class="custom-size-1">
+      <div class="rectangle-div"></div>
+      <button class="rectangle-button" id="rectangleButton"></button
+      ><button class="rectangle-button1" id="rectangleButton1"></button
+      ><img class="img-1052-icon" alt="" src="public/img-1052@2x.png" />
+      <h1 class="home-page" id="homePage">Home Page</h1>
+      <h1 class="gallery" id="gallery">Gallery</h1>
+      <h2 class="about-me">About Me:</h2>
+      <main class="rectangle-main"></main>
+      <p class="im-a-20-year-old-sophomore-fr">
+        I'm a 20 year old sophomore from Bloomington IL, and my passions are
+        photography, and video games
+      </p>
+      <div class="rectangle-div1"></div>
+      <p class="i-also-made-this-really-late-s">
+        I also made this really late so forgive me, I tired
+      </p>
+      <img
+        class="pikachu-running-icon"
+        alt=""
+        src="public/pikachu-running.gif"
+      />
+      <footer class="rectangle-footer"></footer>
+      <img class="icon" alt="" src="public/87390@2x.png" id="image" />
+      <p class="holdenmeece" id="holdenmeece">@holden.meece</p>
+    </fieldset>
+
+    <script>
+      var rectangleButton = document.getElementById("rectangleButton");
+      if (rectangleButton) {
+        rectangleButton.addEventListener("click", function () {
+          window.location.href =
+            "https://qualitygg.github.io/CTK301Fall2022/page2/index.html";
+        });
+      }
+      
+      var rectangleButton1 = document.getElementById("rectangleButton1");
+      if (rectangleButton1) {
+        rectangleButton1.addEventListener("click", function () {
+          window.location.href =
+            "https://qualitygg.github.io/CTK301Fall2022/finalgallery/index.html";
+        });
+      }
+      
+      var homePage = document.getElementById("homePage");
+      if (homePage) {
+        homePage.addEventListener("click", function () {
+          window.location.href =
+            "https://qualitygg.github.io/CTK301Fall2022/page2/index.html";
+        });
+      }
+      
+      var gallery = document.getElementById("gallery");
+      if (gallery) {
+        gallery.addEventListener("click", function () {
+          window.location.href =
+            "https://qualitygg.github.io/CTK301Fall2022/finalgallery/index.html";
+        });
+      }
+      
+      var image = document.getElementById("image");
+      if (image) {
+        image.addEventListener("click", function () {
+          window.location.href = "https://www.instagram.com/holden.meece/";
+        });
+      }
+      
+      var holdenmeece = document.getElementById("holdenmeece");
+      if (holdenmeece) {
+        holdenmeece.addEventListener("click", function () {
+          window.location.href = "https://www.instagram.com/holden.meece/";
+        });
+      }
+      </script>
+  </body>
+</html>
